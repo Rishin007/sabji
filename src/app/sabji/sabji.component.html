@@ -1,0 +1,13 @@
+<h1>Dokane Asun Didibhai</h1>
+<table border="1" cellPadding="5">
+    <tr>
+        <td>Sabji Name</td>
+        <td>Sabji Price</td>
+        <td>Sabji Quantity</td>
+    </tr>
+    <tr *ngFor="let x of products">
+        <td>{{x.name | uppercase}}</td>
+        <td>{{x.price | currency:'INR'}}</td>
+        <td>{{x.stock}}</td>
+    </tr>
+</table>

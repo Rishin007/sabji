@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'products';
+  name = 'oindrila';
+  amount:number=12346.26;
+  demo()
+  {
+    alert("I am a Function!!!")
+  }
 }
+
